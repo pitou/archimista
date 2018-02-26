@@ -41,7 +41,7 @@ Per installare Archimista cross-platform come server locale:
 1. Scaricare ed installare [Docker](https://www.docker.com/);
 2. installare [git](https://git-scm.com/) e clonare il progetto da github.com:
 ```bash
-git clone https://github.com/ProgettoArchimista/archimista.git
+git clone https://github.com/Cavva79/archimista.git
 ```
 3. creare il file di configurazione del database, per esempio:
 ```yaml
