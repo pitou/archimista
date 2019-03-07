@@ -6,9 +6,6 @@ gem 'rails', '4.2.1'
 
 gem 'mysql2', '~> 0.3.18'
 
-# Use sqlite3 as the database for Active Record
-gem 'sqlite3'
-
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -42,8 +39,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin]
 gem 'rubyzip'
 
 gem 'warden',        '>=1.2.3'
-gem 'devise',        '>=3.5.1'
-gem 'devise-encryptable',        '0.2.0'
 gem 'cancancan',     '= 2.1.2' # last compatible version with ruby 2.1
 
 gem 'acts_as_list',  '>=0.8.2'
@@ -53,10 +48,20 @@ gem 'RedCloth',      '>=4.2.9'
 gem 'paperclip',     '>=4.2.1'
 gem 'cocaine',       '>=0.5.7'
 
-gem 'pdfkit',        '>=0.7.0'
 
 gem 'crewait',         '>=0.1.7'
 gem 'rails-footnotes', '>=4.1.7'
+gem 'nokogiri',        '=1.9.1'
+gem 'rb-inotify',      '=0.9.10'
+gem 'globalid',        '=0.4.1'
+gem 'responders',      '=2.4.0'
+gem 'devise',          '=4.5.0'
+gem 'devise-encryptable'
+gem 'ffi',             '=1.9.25'
+gem 'mimemagic',       '=0.3.2'
+gem 'pdfkit',          '=0.8.2'
+gem 'sass',            '=3.7.2'
+gem 'sqlite3',         '=1.3.13'
 
 gem 'sneaky-save',  '>=0.1.0'
 
